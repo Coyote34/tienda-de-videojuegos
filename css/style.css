@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.barra{
+    background-color: 		 	#FF8C00;
+}
+.barra ul li{
+    display:inline-block;
+}
+.barra ul li{
+    padding: 20px; 
+    background-color: azure;
+}
+.menu{
+    background-color: mediumblue;
+    box-shadow: 2px 4px red;
+}
+.menu li{
+    display: inline-block;
+    list-style: none;
+    text-transform:  uppercase;
+    font-size: larger;
+    padding: 15px;
+    background: #00FFFF; 
+}
+.menu a{
+    text-decoration: none;  
+}
+    h1{
+        color: #FF8C00;
+        text-shadow: 2px 3px  #00FFFF;
+    }
+    h3{
+        color: red;
+        text-shadow: 4px 5px blue;
+    }
+.contenido{
+    background-color: rebeccapurple;
+    width: calc(85% - 10px);
+   float: left; 
+   height: 100vh;
+}
+.lateral{
+    width: 15%;
+    float: left;
+    background-color: orange;
+    height: 100vh;
+    padding: 5px;
+}
+.piedepagina{
+    background-color: orchid;
+
+}
+.limpiar{
+    clear: both;
+}
+
+body{
+    background-color:#AFEEEE;
+}
+
+.piedepagina{
+    position: fixed;
+    bottom: 0px;
+    width: 85%;
+    height: 15%;
+}

@@ -1,0 +1,42 @@
+table td{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+table th{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+table th{
+    padding: 15px;
+}
+table td{
+    padding: 15px;
+}
+table th{
+            background-color: #FF00FF;
+        }
+table td{
+    background-color:  	#FF4500;
+}
+table tfoot tr{
+    text-align: center;
+    background-color: greenyellow;
+}
+
+h1{
+    color:	#FF0000;
+    text-shadow: 2px 3px 12px blue;
+}
+h2{
+    color: #3a28e0;
+    text-shadow: 4px 5px 15px rgb(252, 255, 59);
+}
+
+table{
+    margin: 0px auto;
+}
+
+body{
+background-image: url(../images/185844-puppeteer-ya-tiene-teatrero-avance.jpg);
+background-repeat: repeat;
+}

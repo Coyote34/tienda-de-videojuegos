@@ -1,0 +1,15 @@
+.formulario{
+    width: 500px;
+    margin: auto;
+    color: whitesmoke;
+}
+h1{
+    text-align: center;
+    text-shadow: 6px 5px 6px white;
+}
+body{
+    background-image: url(images/1366_2000.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="contacto.css">
+</head>
+
+<body>
+    <h1>Registro del cliente</h1>
+    <form action="." method="GET" class="formulario" autocomplete="off">
+        <fieldset>
+            <legend>Este formurlario es para su seguridad de compra</legend>
+            <label for="Nombre">Nombre</label>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Escriba su Nombre">
+        <br>
+        <br>
+        <label for="Apellido">Apellido</label>
+        <input type="text" id="Apellido" name="Apellido" placeholder="Escriba su Apellido">
+        <br>
+        <br>
+        <label for="Nickname" pattern="[1-9]{3}"> Nickname</label>
+        <input type="text" id="Nickname" name="nickname" placeholder="Escriba su Nicknema">
+        <br>
+        <br>
+        <label for="Edad">Edad</label>
+        <input type="number" min="18" max="30" id="Edad" name="Edad" placeholder="Escriba su Edad">
+        <br>
+        <br>
+        <label for="Correo">Correo</label>
+        <input type="email" id="Correo" name="Correo" placeholder="Escriba su Correo">
+        <br>
+        <br>
+        <label for="Fechanacimiento">Fecha de nacimiento</label>
+        <input type="date" id="Fechanacimiento" name="Fechanacimiento">
+        </fieldset>
+    <p>Como se entro de la pagina</p>
+   <fieldset>
+        <label for="Internet">Internet</label>
+    <input type="checkbox" id="Internet" name="Internet" checked>
+    <br>
+    <label for="Revistas">Revistas</label>
+    <input type="checkbox" id="Revistas" name="Revistas">
+    <br>
+    <label for="Videos">Videos</label>
+    <input type="checkbox" id="Videos" name="Videos">
+    <br>
+    <label for="Amigos">Amigos</label>
+    <input type="checkbox" id="Amigos" name="Amigos">
+    <br>
+    <button type="submit">Enviar</button>
+   </fieldset>
+    </form>
+</body>
+</html>
